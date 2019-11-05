@@ -1,0 +1,6 @@
+endpoint: ${env:PRISMA_ENDPOINT} # https://www.prisma.io/docs/1.2/reference/service-configuration/prisma.yml/using-variables-nu5oith4da#environment-variables
+datamodel: datamodel.graphql
+# secret: ${env:PRISMA_SECRET} # the service secret used to authenticate requests made to the service's API
+hooks: # specify shell commands to be executed at some point in the deployment process
+  post-deploy: # will be invoked after the prisma deploy command
+    - graphql get-schema -p prisma

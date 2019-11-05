@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderList displays orders 1`] = `
+<body>
+  <div>
+    <div>
+      <div>
+        <h2>
+          You have 
+          3
+           orders
+        </h2>
+        <ul>
+          <div>
+            <a
+              href="/order?id=1"
+            >
+              <div
+                class="order-meta"
+              >
+                <p>
+                  2
+                   Items
+                </p>
+                <p>
+                  2
+                   Products
+                </p>
+                <p>
+                  over 1 year
+                </p>
+                <p>
+                  $400
+                </p>
+              </div>
+              <div
+                class="images"
+              >
+                <img
+                  alt="soluta non omnis consequatur enim quia autem"
+                  src="reprehenderit.jpg"
+                />
+                <img
+                  alt="quia sed exercitationem omnis laborum exercitationem est"
+                  src="sint.jpg"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="/order?id=2"
+            >
+              <div
+                class="order-meta"
+              >
+                <p>
+                  2
+                   Items
+                </p>
+                <p>
+                  2
+                   Products
+                </p>
+                <p>
+                  over 1 year
+                </p>
+                <p>
+                  $400
+                </p>
+              </div>
+              <div
+                class="images"
+              >
+                <img
+                  alt="nihil quam nulla est unde sit ex"
+                  src="dolorem.jpg"
+                />
+                <img
+                  alt="voluptas culpa et vero repellat eveniet assumenda"
+                  src="et.jpg"
+                />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
+              href="/order?id=ord123"
+            >
+              <div
+                class="order-meta"
+              >
+                <p>
+                  2
+                   Items
+                </p>
+                <p>
+                  2
+                   Products
+                </p>
+                <p>
+                  over 1 year
+                </p>
+                <p>
+                  $400
+                </p>
+              </div>
+              <div
+                class="images"
+              >
+                <img
+                  alt="odit tempora at modi occaecati illum laborum"
+                  src="at.jpg"
+                />
+                <img
+                  alt="possimus sint fugiat maiores autem est esse"
+                  src="et.jpg"
+                />
+              </div>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+`;
